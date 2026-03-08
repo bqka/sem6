@@ -1,0 +1,88 @@
+# Conditions of Parallelism
+
+![[Pasted image 20260306014810.png]]
+
+## Data and Resource Dependency
+
+![[Pasted image 20260306015548.png]]
+![[Pasted image 20260306020209.png]]
+![[Pasted image 20260306020313.png]]
+![[Pasted image 20260306020825.png]]
+
+#### Bernstein's Conditions
+
+![[Pasted image 20260306020950.png]]
+
+### Hardware and Software Parallelism
+
+#### 1. Hardware Parallelism
+
+- **Hardware parallelism** depends on the **computer architecture and hardware resources** available.
+- It shows how many **operations a processor can execute simultaneously**.
+- The amount of hardware parallelism often depends on **cost–performance trade-offs**.
+- It also indicates the **maximum (peak) performance** that the processor can achieve.
+
+##### Instruction Issue Rate
+- Parallelism in a processor is often measured by the **number of instructions issued per machine cycle**.
+- If a processor issues **k instructions per cycle**, it is called a **k-issue processor**.
+
+Examples:
+- **One-issue processor**: issues **one instruction per cycle** (traditional processors with a single pipeline).
+- **Multiple-issue processors**: issue **two or more instructions per cycle**.
+
+Examples of multi-issue processors:
+- **Intel i960CA** → **3-issue processor**
+    - Arithmetic instruction
+    - Memory access instruction
+    - Branch instruction
+- **IBM RISC/System 6000** → **4-issue processor**
+    - Arithmetic
+    - Memory access
+    - Floating-point
+    - Branch instruction
+- In a **multiprocessor system with n processors**, each capable of issuing **k instructions per cycle**, the system can handle **up to nk instruction threads simultaneously**.
+
+#### 2. Software Parallelism
+- **Software parallelism** depends on the **program itself**, including:
+    - Data dependencies
+    - Control dependencies
+    - Algorithms used
+    - Programming style
+    - Compiler optimizations
+- It is analyzed using:
+    - **Program profiles**
+    - **Program flow graphs**
+- These tools show which **operations can run simultaneously** during execution.
+- Unlike hardware parallelism, **software parallelism changes during program execution** and may **limit the actual performance** that hardware can achieve.
+
+![[Pasted image 20260306031008.png]]
+
+# Program Partitioning and Scheduling
+
+### Grain Sizes and Latency
+
+![[Pasted image 20260306032123.png]]
+
+![[Pasted image 20260306032321.png|500]]
+
+In general, the execution of a program may involve a combination of these levels. The actual combination depends on the application, formulation, algorithm, language, program, compilation support, and hardware limitations.
+
+## Grain Packing and Scheduling
+
+![[Pasted image 20260306033853.png]]
+
+## Static Multiprocessor Scheduling
+
+![[Pasted image 20260306034322.png]]
+![[Pasted image 20260306034341.png]]
+
+# Program Flow Mechanisms
+
+![[Pasted image 20260306040818.png]]
+![[Pasted image 20260306040830.png]]
+
+#### Demand Driven Mechanism
+
+![[Pasted image 20260306041034.png]]
+![[Pasted image 20260306041112.png]]
+![[Pasted image 20260306041254.png]]
