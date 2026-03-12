@@ -26,3 +26,23 @@ best -> mini batch gradient descent
 ![[Pasted image 20260312020430.png]]
 ![[Pasted image 20260312020439.png]]
 ![[Pasted image 20260312020447.png]]
+
+# Regularization
+
+**L1 and L2 regularization** are techniques used in machine learning and deep learning to **prevent overfitting** by adding a penalty on large weights in the model.
+
+They modify the **loss function** so the model prefers **smaller weights**, leading to simpler and more generalizable models.
+![[Pasted image 20260312032122.png]]
+![[Pasted image 20260312032223.png]]
+![[Pasted image 20260312032354.png|500]]
+![[Pasted image 20260312032401.png|500]]
+
+# Learning Rate Schedules
+
+![[Pasted image 20260312032923.png]]
+
+
+$$\eta_t = \eta_{min} + \frac{1}{2}(\eta_{max}-\eta_{min})\left(1+\cos\left(\frac{t}{T}\pi\right)\right)$$
+
+![[Pasted image 20260312104437.png]]
+

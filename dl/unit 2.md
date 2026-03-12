@@ -15,9 +15,18 @@
 ![[Pasted image 20260309035603.png]]
 ![[Pasted image 20260312024404.png]]
 ![[Pasted image 20260312024723.png]]
+![[Pasted image 20260312033252.png]]
+
 ![[Pasted image 20260312024817.png]]
 # Receptive Field
 
 ```
 new RF = old RF + (kernel−1) × total stride so far
 ```
+
+# Gradient Clipping
+
+![[Pasted image 20260312031725.png]]
+if |gradient| > threshold  
+gradient = threshold
+![[Pasted image 20260312032002.png]]
