@@ -20,6 +20,8 @@ best -> mini batch gradient descent
 ![[Pasted image 20260312015929.png|500]]
 ![[Pasted image 20260312015938.png|500]]
 ![[Pasted image 20260312015947.png]]
+![[Pasted image 20260312124907.png]]
+![[Pasted image 20260312124922.png]]
 
 # Initialization Techniques
 
