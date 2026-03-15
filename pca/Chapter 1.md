@@ -1,5 +1,9 @@
 ![[Pasted image 20260302033853.png|500]]
 
+```
+Sequential → Lookahead → Functional Parallelism → Pipeline → Vector → Parallel
+```
+
 ![[Pasted image 20260302033938.png]]
 
 the latter includes pipelined instruction execution, pipelined arithmetic computations, and memory-access operations. Pipelining has proven especially attractive in performing identical operations repeatedly over vector data strings. Vector operations were originally carried out implicitly by software-controlled looping using scalar pipeline processors.
