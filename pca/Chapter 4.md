@@ -1,50 +1,65 @@
-![[Pasted image 20260307010830.png|367]]
-![[Pasted image 20260307011244.png|544]]
-![[Pasted image 20260307011316.png|378]]
-![[Pasted image 20260307011437.png|418]]
+# Advanced Processor Technology
 
-Processors and Coprocessors The central processor of a computer is called thecentral processing unit (CPU) as illustrated in Fig. 4.3. This CPU is essentially a scalar processor, which may consist of multiple functional units such as an integer arithmetic and logic unit (ALU), a floating-point accelerator, etc. The floating-point unit can be built on a coprocessor (Fig. 4.3b) which is attachedto the CPU. The coprocessor executes instructions dispatched from the CPU. A co- processor may be a floating-point accelerator executing scalar data, vector processor executing vector operands, a digital signal processor (DSP), or a Lisp processor execut- ing AI programs. Coprocessors cannot handle I/O operations.
+## Design Space of Processors
 
-![[Pasted image 20260307011920.png|595]]
+![[Pasted image 20260315111624.png]]
+![[Pasted image 20260307010830.png|500]]
+![[Pasted image 20260315111911.png]]
 
-![[Pasted image 20260307012001.png|610]]
+![[Pasted image 20260315114152.png]]
+![[Pasted image 20260307011244.png]]
+![[Pasted image 20260307011316.png|]]
+![[Pasted image 20260307011437.png|600]]
+![[Pasted image 20260315114457.png]]
 
-![[Pasted image 20260307012417.png|463]]
+## Instruction Set Architectures
 
+![[Pasted image 20260307011920.png]]
+![[Pasted image 20260315131149.png]]
+![[Pasted image 20260315131157.png]]
+![[Pasted image 20260307012001.png]]
 
-![[Pasted image 20260307022054.png|545]]
-![[Pasted image 20260307022115.png|558]]
-![[Pasted image 20260307022129.png|567]]
-![[Pasted image 20260307022442.png|590]]
-![[Pasted image 20260307022601.png|563]]
+## CISC Scalar Processors
 
+![[Pasted image 20260307022054.png]]
+![[Pasted image 20260307022115.png]]
+![[Pasted image 20260307022129.png]]
 
-![[Pasted image 20260307022306.png|574]]
-![[Pasted image 20260307022315.png|577]]
-![[Pasted image 20260307022803.png|453]]
+# Superscalar and Vector Processors
+
+![[Pasted image 20260315134426.png]]
+![[Pasted image 20260307022442.png]]
+![[Pasted image 20260315134532.png]]
+
+![[Pasted image 20260307022601.png|600]]
+
+## The VLIW Architecture
+
+![[Pasted image 20260307022306.png]]
+![[Pasted image 20260307022315.png]]
+![[Pasted image 20260315134843.png]]
+![[Pasted image 20260307022803.png|535]]
+
+## Vector and Symbolic Processors
 
 ![[Pasted image 20260307022948.png]]
 ![[Pasted image 20260307023343.png]]
 
  vector processor can assume either a register-to-register architecture or a memory- to-memory architecture. The former uses shorter instructions and vector register files. The latter uses memory-based instructions which are longer in length, including memory addresses.
 
-![[Pasted image 20260307023656.png|501]]
+![[Pasted image 20260307023656.png|697]]
 
 Vector Pipelines
-![[Pasted image 20260307023719.png|466]]
+![[Pasted image 20260307023719.png|620]]
+![[Pasted image 20260307023801.png]]
 
-![[Pasted image 20260307023801.png|509]]
+![[Pasted image 20260307023828.png|697]]
+![[Pasted image 20260307023837.png|460]]
+![[Pasted image 20260307023847.png|697]]
 
-![[Pasted image 20260307023828.png|509]]![[Pasted image 20260307023837.png|300]]
-![[Pasted image 20260307023847.png|497]]
+# Memory Hierarchy 
 
-
-### Memory Hierarchy 
-
-![[Pasted image 20260307024050.png|461]]
-![[Pasted image 20260307024208.png|496]]
-
-
+![[Pasted image 20260307024050.png|620]]
 #### 1. Basic Idea
 
 The book explains that **no single memory technology can simultaneously provide**:
@@ -137,23 +152,21 @@ The  memory hierarchy aims to:
 
 Thus the hierarchy provides the **illusion of a large, fast, and inexpensive memory system**.
 
+## Inclusion, Coherence and Locality
+
+![[Pasted image 20260307030518.png|688]]
+![[Pasted image 20260307030539.png|624]]
+![[Pasted image 20260307030555.png|609]]
+![[Pasted image 20260307030607.png|609]]
+![[Pasted image 20260307030739.png|692]]
 
 
-![[Pasted image 20260307030518.png|528]]
-![[Pasted image 20260307030539.png|532]]
-![[Pasted image 20260307030555.png|483]]
-![[Pasted image 20260307030607.png|478]]
-![[Pasted image 20260307030739.png|490]]
+![[Pasted image 20260307031221.png|697]]
+![[Pasted image 20260307031243.png|660]]
 
+![[Pasted image 20260307031257.png|636]]
 
+![[Pasted image 20260307031310.png|653]]
+![[Pasted image 20260307031323.png|642]]
 
-![[Pasted image 20260307031221.png|588]]
-![[Pasted image 20260307031243.png|588]]
-
-![[Pasted image 20260307031257.png|584]]
-
-![[Pasted image 20260307031310.png|608]]
-![[Pasted image 20260307031323.png|607]]
-
-![[Pasted image 20260307031336.png|610]]
-
+![[Pasted image 20260307031336.png|640]]

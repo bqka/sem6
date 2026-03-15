@@ -12,7 +12,7 @@ A linear pipeline processor is a cascade of processing stages which are linearly
 #### Synchronous Model
 
 ![[Pasted image 20260308051019.png]]
-![[Pasted image 20260308051208.png|500]]
+![[Pasted image 20260308051208.png|624]]
 
 
 ![[Pasted image 20260308051052.png]]
@@ -44,14 +44,14 @@ $$T_1 = nk\tau$$
 yap about maximum speedup
 ![[Pasted image 20260308052347.png]]
 
-![[Pasted image 20260308052430.png|400]]
+![[Pasted image 20260308052430.png|517]]
 #### Optimal Number of Stages
 ![[Pasted image 20260308052450.png]]
 
 -> maximize a performance/cost ratio
 
-![[Pasted image 20260308052657.png|500]]
-![[Pasted image 20260308052714.png|500]]
+![[Pasted image 20260308052657.png|618]]
+![[Pasted image 20260308052714.png|599]]
 
 #### Efficiency and Throughput
 
@@ -62,6 +62,7 @@ yap about maximum speedup
 ![[Pasted image 20260308053008.png]]
 
 ## Reservation and Latency Analysis
+
 ![[Pasted image 20260308053520.png]]
 ![[Pasted image 20260308053605.png]]
 ![[Pasted image 20260308053614.png|400]]
@@ -109,11 +110,11 @@ static pipeline -> p = 1 (ideal case) always achievable
 
 #### State Diagrams
 
-![[Pasted image 20260308061311.png]]
+![[Pasted image 20260308061311.png|697]]
 
 basically, count the position of 0's, from the right and those are permissible latencies for a state, then to get next state, right shift by p (basically remove till that 0 is gone) and then bitwise OR with the initial collision vector
 
-![[Pasted image 20260308061529.png|500]]
+![[Pasted image 20260308061529.png|623]]
 ![[Pasted image 20260308061721.png]]
 
 ![[Pasted image 20260308062013.png]]
@@ -132,9 +133,9 @@ find simple cycles -> calculate average latency -> js take the minimum
 
 ![[Pasted image 20260308062516.png]]
 
-![[Pasted image 20260308062931.png]]
+![[Pasted image 20260308062931.png|673]]
 
-![[Pasted image 20260308062948.png]]
+![[Pasted image 20260308062948.png|697]]
 
 #### Pipeline Throughput
 
@@ -142,9 +143,9 @@ find simple cycles -> calculate average latency -> js take the minimum
 
 #### Pipeline Efficiency
 
-![[Pasted image 20260308063212.png]]
+![[Pasted image 20260308063212.png|612]]
 
-![[Pasted image 20260308063146.png|500]]
-![[Pasted image 20260308063250.png|500]]
+![[Pasted image 20260308063146.png|580]]
+![[Pasted image 20260308063250.png|582]]
 
 

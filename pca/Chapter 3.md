@@ -60,15 +60,15 @@ Harmonic mean speedup is used to compute the effective speedup of a program that
 
 ![[Pasted image 20260307013444.png]]
 
-![[Pasted image 20260307013520.png|400]]
-![[Pasted image 20260307013531.png|400]]
+![[Pasted image 20260307013520.png|600]]
+![[Pasted image 20260307013531.png|600]]
 ![[Pasted image 20260307013637.png]]
 
 ## Efficiency, Utilization and Quality
 
-![[Pasted image 20260307015125.png|500]]
-![[Pasted image 20260307015336.png|500]]
-![[Pasted image 20260307015400.png|500]]
+![[Pasted image 20260307015125.png|600]]
+![[Pasted image 20260307015336.png|600]]
+![[Pasted image 20260307015400.png|600]]
 ![[Pasted image 20260307015442.png|500]]
 
 understanding
@@ -146,9 +146,9 @@ The resulting speedup is called **fixed-load speedup**.
 
 #### Amdahl's Law Revisited
 
-![[Pasted image 20260307022414.png|400]]
-![[Pasted image 20260307022435.png|400]]
-![[Pasted image 20260307022444.png|400]]
+![[Pasted image 20260307022414.png|500]]
+![[Pasted image 20260307022435.png|500]]
+![[Pasted image 20260307022444.png|500]]
 
 ![[Pasted image 20260307022523.png]]
 
@@ -160,29 +160,29 @@ So speedup is **limited by the sequential fraction**.
 
 ## Gustafson's Law for Scaled Problems
 
-![[Pasted image 20260307024129.png|400]]
+![[Pasted image 20260307024129.png|600]]
 
-![[Pasted image 20260307024159.png|500]]
+![[Pasted image 20260307024159.png|600]]
 
 ![[Pasted image 20260307024341.png]]
 
-![[Pasted image 20260307024405.png|500]]
-![[Pasted image 20260307024456.png|500]]
+![[Pasted image 20260307024405.png|600]]
+![[Pasted image 20260307024456.png|600]]
 
 understanding
-![[Pasted image 20260307024617.png|500]]
+![[Pasted image 20260307024617.png|600]]
 ![[Pasted image 20260307024753.png|500]]
 
 #### Gustafson's Law
 
-![[Pasted image 20260307024857.png|500]]
+![[Pasted image 20260307024857.png|600]]
 ![[Pasted image 20260307025005.png]]
 ## Memory Bounded Speedup Model
 
 ![[Pasted image 20260307025319.png|500]]
 ![[Pasted image 20260307025354.png]]
 
-![[Pasted image 20260307025402.png|500]]
+![[Pasted image 20260307025402.png|600]]
 
 ![[Pasted image 20260307025451.png|500]]
 ![[Pasted image 20260307025509.png]]
@@ -190,7 +190,7 @@ understanding
 
 #### Fixed Memory Speedup
 
-![[Pasted image 20260307025544.png|400]]
+![[Pasted image 20260307025544.png|600]]
 ![[Pasted image 20260307025555.png|500]]
 
 ![[Pasted image 20260307030104.png]]

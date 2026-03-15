@@ -11,7 +11,7 @@
 
 #### Bernstein's Conditions
 
-![[Pasted image 20260306020950.png]]
+![[Pasted image 20260306020950.png|800]]
 
 ### Hardware and Software Parallelism
 
@@ -63,7 +63,7 @@ Examples of multi-issue processors:
 
 ![[Pasted image 20260306032123.png]]
 
-![[Pasted image 20260306032321.png|500]]
+![[Pasted image 20260306032321.png|700]]
 
 In general, the execution of a program may involve a combination of these levels. The actual combination depends on the application, formulation, algorithm, language, program, compilation support, and hardware limitations.
 
@@ -86,3 +86,22 @@ In general, the execution of a program may involve a combination of these levels
 ![[Pasted image 20260306041034.png]]
 ![[Pasted image 20260306041112.png]]
 ![[Pasted image 20260306041254.png]]
+
+# System Interconnect Architectures
+
+## Network Properties and Routing
+
+![[Pasted image 20260315170930.png]]
+
+![[Pasted image 20260315171017.png]]
+![[Pasted image 20260315171023.png]]
+![[Pasted image 20260315171032.png]]
+![[Pasted image 20260315171038.png]]
+![[Pasted image 20260315171444.png|550]]
+
+![[Pasted image 20260315171652.png]]
+![[Pasted image 20260315171945.png]]
+![[Pasted image 20260315171954.png]]
+![[Pasted image 20260315172327.png]]
+![[Pasted image 20260315172336.png]]
+
