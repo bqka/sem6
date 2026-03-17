@@ -18,11 +18,11 @@
 ![[Pasted image 20260314170308.png]]
 ![[Pasted image 20260314170422.png]]
 ![[Pasted image 20260314171222.png]]
-
+DCPAM
 # Dimensional Modelling
 
 ![[Pasted image 20260314172546.png]]
-
+![[Pasted image 20260317113043.png|642]]
 # Schemas
 
 ![[Pasted image 20260314173313.png]]
@@ -30,8 +30,6 @@
 ![[Pasted image 20260314174019.png]]
 
 ![[Pasted image 20260314174049.png]]
-![[Pasted image 20260314174256.png]]
-
 # OLAP
 
 ![[Pasted image 20260314174857.png]]
