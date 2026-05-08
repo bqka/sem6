@@ -1,5 +1,5 @@
 ![[Pasted image 20260508005040.png]]
-# DBSCAN: Density-Based Clustering Based on Connected Regions with High Density
+# DBSCAN: Density-Based Spatial Clustering of Applications with Noise
 
 ![[Pasted image 20260507183851.png]]
 

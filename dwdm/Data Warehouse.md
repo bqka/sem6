@@ -10,6 +10,7 @@
 
 # Distributed Data Warehouse
 
+![[Pasted image 20260508095736.png]]
 ![[Pasted image 20260314165100.png]]
 ![[Pasted image 20260314165219.png]]
 
@@ -17,6 +18,7 @@
 
 ![[Pasted image 20260314170308.png]]
 ![[Pasted image 20260314170422.png]]
+![[Pasted image 20260508100056.png]]
 ![[Pasted image 20260314171222.png]]
 DCPAM
 # Dimensional Modelling
