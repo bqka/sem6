@@ -32,6 +32,9 @@ DCPAM
 ![[Pasted image 20260314174049.png]]
 # OLAP
 
+![[Pasted image 20260508005940.png]]
+![[Pasted image 20260508010629.png]]
+
 ![[Pasted image 20260314174857.png]]
 ![[Pasted image 20260314175150.png]]
 ![[Pasted image 20260314175318.png]]
