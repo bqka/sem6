@@ -1,3 +1,7 @@
+---
+share_link: https://share.note.sx/9sjn7id7#r0QdVZAvtv5bUWXxyNQIW+upJWvdcSV6Iqeb2JyJBjo
+share_updated: 2026-05-09T12:01:28+05:30
+---
 # Study Notes: Business Environment and Porter's Five Forces
 
 ## 1. Concept of Business Environment
