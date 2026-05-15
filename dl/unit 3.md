@@ -1,3 +1,18 @@
+---
+share_link: https://share.note.sx/z5vt6qn9#jez5ctQALwn3644NbhY/0Ach/lqeKtCZAg566QVmidY
+share_updated: 2026-05-14T22:57:16+05:30
+---
+# CNN Formulas
+
+output size
+$$O=\frac{N-F+2P}{S}+1$$
+
+pooling output size
+$$O=\frac{N-F}{S}+1$$
+
+
+# Gradient Descent
+
 ![[Pasted image 20260309052033.png]]
 ![[Pasted image 20260309052045.png|300]]
 -> weight updates happen 1 time per epoch
